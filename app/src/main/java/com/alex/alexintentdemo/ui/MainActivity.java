@@ -58,6 +58,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 });
     }
 
+    /**
+     * Button1 是直接打开Activity，没有参数
+     * Button2 是直接打开WebViewActivity，没有参数
+     */
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
