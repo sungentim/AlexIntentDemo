@@ -66,12 +66,16 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
      * 跳转的规则如下：
      * "intent:#Intent;component=com.alex.alexintentdemo/.ui.TestActivity;end"
      * }
-     * Button2 是直接打开WebViewActivity，没有参数
+     * Button2 是直接打开接收参数的Activity，有参数
      * {
      * 跳转的规则如下：
-     * "http://www.baidu.com""
+     * intent:#Intent;component=com.alex.alexintentdemo/.ui.Test2Activity;B.flag=true;S.name=大家好Plus-28天;i.code=1221;end
      * }
-     *
+     * Button3 是直接打开WebViewActivity，没有参数
+     * {
+     * 跳转的规则如下：
+     * "http://www.baidu.com"
+     * }
      */
     @Override
     public void onClick(View v) {
