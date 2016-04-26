@@ -30,7 +30,19 @@
         android:layout_marginRight="@dimen/button_margin_h"
         android:background="@drawable/button_selector_bg"
         android:layout_marginTop="@dimen/button_margin_v"
-        android:text="@string/button_text_1"
+        android:text="@string/button_text_2"
+        android:textColor="@color/main_app_text"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginLeft="@dimen/button_margin_h"
+        android:layout_marginRight="@dimen/button_margin_h"
+        android:background="@drawable/button_selector_bg"
+        android:layout_marginTop="@dimen/button_margin_v"
+        android:text="@string/button_text_3"
         android:textColor="@color/main_app_text"
         android:textSize="@dimen/button_text_size" />
 

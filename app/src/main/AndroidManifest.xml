@@ -20,6 +20,8 @@
 
         <activity android:name=".ui.TestActivity" />
 
+        <activity android:name=".ui.Test2Activity" />
+
         <activity android:name=".ui.WebViewActivity" />
 
     </application>

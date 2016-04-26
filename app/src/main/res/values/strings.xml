@@ -2,8 +2,11 @@
     <string name="app_name">AlexIntentDemo</string>
 
     <string name="button_text_1">跳转到Activity</string>
+    <string name="button_text_2">跳转到接收参数的Activity</string>
+    <string name="button_text_3">跳转到Http</string>
 
     <string name="common_loading">请稍候···</string>
 
     <string name="test_activity_text">这是直接打开TestActivity</string>
+    <string name="test2_activity_text">这是接受参数的Test2Activity</string>
 </resources>

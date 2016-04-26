@@ -23,6 +23,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     @InjectView(R.id.button_1)
     Button toActivity;
     @InjectView(R.id.button_2)
+    Button toParamActivity;
+    @InjectView(R.id.button_3)
     Button toWebView;
 
     private IntentModel intentModel;
@@ -35,6 +37,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         getIntentRule();
 
         toActivity.setOnClickListener(this);
+        toParamActivity.setOnClickListener(this);
         toWebView.setOnClickListener(this);
 
     }
@@ -78,6 +81,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 break;
             case R.id.button_2:
                 CommonUtils.jumpWithUri(MainActivity.this, intentModel.getData().getIntent_rule_2());
+                break;
+            case R.id.button_3:
+                CommonUtils.jumpWithUri(MainActivity.this, intentModel.getData().getIntent_rule_3());
                 break;
             default:
                 break;
