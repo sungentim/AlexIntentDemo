@@ -17,7 +17,7 @@ import rx.Observable;
  */
 public interface ApiService {
 
-    //判断手机号是否已经注册
+    //获取跳转规则
     @FormUrlEncoded
     @POST(Constants.API_INTENT_RULE)
     Observable<IntentModel> getIntentRule(@FieldMap Map<String, String> params);

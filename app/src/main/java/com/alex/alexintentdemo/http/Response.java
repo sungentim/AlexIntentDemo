@@ -41,9 +41,6 @@ public class Response<T> extends Subscriber<T> {
 
     }
 
-    /**
-     * 无需重写！！！
-     */
     @Override
     public void onNext(T t) {
 

@@ -26,14 +26,6 @@ public class ApiManager {
     }
 
     //单例模式
-    public static ApiManager getInstance() {
-        if (mInstance == null) {
-            mInstance = new ApiManager();
-        }
-        return mInstance;
-    }
-
-    //单例模式
     public static ApiService getService() {
         if (mInstance == null) {
             mInstance = new ApiManager();

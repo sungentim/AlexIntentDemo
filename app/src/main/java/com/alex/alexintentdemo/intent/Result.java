@@ -1,4 +1,4 @@
-package com.alex.alexintentdemo.god;
+package com.alex.alexintentdemo.intent;
 
 public class Result {
     public static final int SUCCESS = 0;//成功

@@ -5,7 +5,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.alex.alexintentdemo.R;
-import com.alex.alexintentdemo.god.CommonUtils;
+import com.alex.alexintentdemo.intent.CommonUtils;
 import com.alex.alexintentdemo.http.ApiManager;
 import com.alex.alexintentdemo.http.Response;
 import com.alex.alexintentdemo.http.RxHttp;
@@ -59,8 +59,16 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     }
 
     /**
-     * Button1 是直接打开Activity，没有参数
+     * Button1 是直接打开Activity，没有参数{
+     * 跳转的规则如下：
+     * "intent:#Intent;component=com.alex.alexintentdemo/.ui.TestActivity;end"
+     * }
      * Button2 是直接打开WebViewActivity，没有参数
+     * {
+     * 跳转的规则如下：
+     * "http://www.baidu.com""
+     * }
+     *
      */
     @Override
     public void onClick(View v) {

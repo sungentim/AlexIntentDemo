@@ -1,4 +1,4 @@
-package com.alex.alexintentdemo.god;
+package com.alex.alexintentdemo.intent;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -16,8 +16,10 @@ public class CommonUtils {
     private static final String SCHEME_HTTP = "http";
     private static final String SCHEME_HTTPS = "https";
 
-
     /**
+     * @param strUri 跳转时的规则
+     * @return  如果成功则返回Result.SUCCESS
+     *          否则返回Result.FAILED
      */
     public static int jumpWithUri(Context context, String strUri) {
         try {
