@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 非触摸模式下获得焦点并单击时的背景图片 -->
+    <item android:drawable="@color/button_s_color" android:state_pressed="true" />
+    <!--选中时的图片背景-->
+    <item android:drawable="@color/button_n_color" />
+</selector>

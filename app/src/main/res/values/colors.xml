@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transport">#00000000</color>
+
+
+    <color name="main_app_text">#efe3e7</color>
+
+    <color name="main_app_bg">#866671</color>
+    <color name="button_n_color">#970e3d</color>
+    <color name="button_s_color">#7b052d</color>
+</resources>
